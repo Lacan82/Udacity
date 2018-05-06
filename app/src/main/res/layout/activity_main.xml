@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/businesstitle_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Athen's Grill"
+        android:textColor="#FFD700"
+        android:background="#0000FF"
+        android:textSize="40sp" />
+
+    <!-- Image open license from. https://www.pexels.com/photo/low-angle-photograph-of-the-parthenon-during-daytime-164336/ -->
+
+    <ImageView
+        android:id="@+id/athens_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:cropToPadding="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/athens" />
+
+    <TextView
+        android:id="@+id/address_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="9124 Rothbury Dr\n Gaithersburg, MD 20886\n Phone number (301) 975-0757" />
+
+    <TextView
+        android:id="@+id/description_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="Family owned authentice mediterranean restaurants"/>
+
+    <TextView
+        android:id="@+id/hours_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:text="hours" />
+
+    <TextView
+        android:id="@+id/operating_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="M-F 11:00 - 9:00 pm\n Sat 11:00 - 9:00 pm\n Sun Closed"/>
+
+
+
+
+</LinearLayout>
